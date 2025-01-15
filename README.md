@@ -24,3 +24,13 @@
 ### Aware 感知
 
 对象只要实现了感知接口，就能拿到外部的某个对象，这是由于在框架内部检查此接口并为其设值。
+
+### IO
+
+#### Resource
+
+统一资源管理。
+
+* Resource：对来源任意的资源封装，代表资源
+* ResourceLoader：加载资源的入口
+* ProtocolResolver：通过 SPI 扩展支持的协议
