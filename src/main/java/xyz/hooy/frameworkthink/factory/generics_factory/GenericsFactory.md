@@ -1,0 +1,1 @@
+## 泛型工厂 *Generics Factory*

@@ -1,6 +1,6 @@
-package xyz.hooy.frameworkthink.factory.impl;
+package xyz.hooy.frameworkthink.factory.generics_factory.impl;
 
-import xyz.hooy.frameworkthink.factory.ConnectFactory;
+import xyz.hooy.frameworkthink.factory.generics_factory.ConnectFactory;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

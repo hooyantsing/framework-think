@@ -1,11 +1,11 @@
-package xyz.hooy.frameworkthink.listen;
+package xyz.hooy.frameworkthink.listener;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SimpleListenMulticaster implements ListenMulticaster {
+public class SimpleEventMulticaster implements EventMulticaster {
 
     private final Set<Listener<Event>> listeners = new HashSet<>();
 
@@ -36,7 +36,7 @@ public class SimpleListenMulticaster implements ListenMulticaster {
         try {
             eventClassName = Class.forName(className);
         } catch (ClassNotFoundException e) {
-            throw new ListenException("Wrong event class name: " + className);
+            throw new ListenerException("Wrong event class name: " + className);
         }
         return eventClassName.isAssignableFrom(event.getClass());
     }

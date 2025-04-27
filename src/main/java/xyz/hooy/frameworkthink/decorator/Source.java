@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.decoration;
+package xyz.hooy.frameworkthink.decorator;
 
 public interface Source {
 

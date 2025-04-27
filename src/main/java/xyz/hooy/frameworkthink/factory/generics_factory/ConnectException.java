@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.factory;
+package xyz.hooy.frameworkthink.factory.generics_factory;
 
 public class ConnectException extends RuntimeException{
 

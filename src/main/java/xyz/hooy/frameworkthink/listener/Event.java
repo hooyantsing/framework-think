@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.listen;
+package xyz.hooy.frameworkthink.listener;
 
 import java.util.EventObject;
 

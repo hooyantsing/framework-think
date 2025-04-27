@@ -1,6 +1,6 @@
-package xyz.hooy.frameworkthink.factory.impl;
+package xyz.hooy.frameworkthink.factory.generics_factory.impl;
 
-import xyz.hooy.frameworkthink.factory.Connect;
+import xyz.hooy.frameworkthink.factory.generics_factory.Connect;
 
 public class GpibMockConnect implements Connect {
 

@@ -1,9 +1,9 @@
-package xyz.hooy.frameworkthink.listen;
+package xyz.hooy.frameworkthink.listener;
 
 /**
  * 存储多个监听器的容器
  */
-public interface ListenMulticaster {
+public interface EventMulticaster {
 
     void addListener(Listener<?> listener);
 

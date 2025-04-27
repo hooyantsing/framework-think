@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.listen;
+package xyz.hooy.frameworkthink.listener;
 
 /**
  * 监听器

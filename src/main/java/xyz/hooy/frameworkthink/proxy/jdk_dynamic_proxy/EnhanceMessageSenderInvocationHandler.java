@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.proxy.jdk;
+package xyz.hooy.frameworkthink.proxy.jdk_dynamic_proxy;
 
 import xyz.hooy.frameworkthink.proxy.MessageSender;
 

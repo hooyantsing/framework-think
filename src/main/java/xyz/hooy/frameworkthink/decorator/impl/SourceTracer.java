@@ -1,7 +1,7 @@
-package xyz.hooy.frameworkthink.decoration.impl;
+package xyz.hooy.frameworkthink.decorator.impl;
 
-import xyz.hooy.frameworkthink.decoration.AbstractSourceDecorator;
-import xyz.hooy.frameworkthink.decoration.Source;
+import xyz.hooy.frameworkthink.decorator.AbstractSourceDecorator;
+import xyz.hooy.frameworkthink.decorator.Source;
 
 import java.io.OutputStream;
 import java.io.PrintWriter;

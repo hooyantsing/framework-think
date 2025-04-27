@@ -1,7 +1,7 @@
-package xyz.hooy.frameworkthink.factory.impl;
+package xyz.hooy.frameworkthink.factory.generics_factory.impl;
 
-import xyz.hooy.frameworkthink.factory.Connect;
-import xyz.hooy.frameworkthink.factory.ConnectException;
+import xyz.hooy.frameworkthink.factory.generics_factory.Connect;
+import xyz.hooy.frameworkthink.factory.generics_factory.ConnectException;
 
 import java.io.*;
 import java.net.Socket;
