@@ -1,11 +1,11 @@
 package xyz.hooy.frameworkthink.factory.generics_factory.impl;
 
-import xyz.hooy.frameworkthink.factory.generics_factory.ConnectFactory;
+import xyz.hooy.frameworkthink.factory.generics_factory.ConnectionFactory;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class GpibConnectFactory implements ConnectFactory<GpibMockConnect> {
+public class GpibConnectionFactory implements ConnectionFactory<GpibMockConnection> {
 
     private final static Pattern pattern = Pattern.compile("GPIB(?<board>\\d+)::(?<primary>\\d+)::INSTR");
 
@@ -15,18 +15,18 @@ public class GpibConnectFactory implements ConnectFactory<GpibMockConnect> {
     }
 
     @Override
-    public GpibMockConnect fromVisaString(String visaString) {
+    public GpibMockConnection fromVisaString(String visaString) {
         Matcher matcher = pattern.matcher(visaString);
         if (!matcher.find()) {
-            throw new IllegalArgumentException(GpibConnectFactory.class.getName() + " cannot parse [" + visaString + "].");
+            throw new IllegalArgumentException(GpibConnectionFactory.class.getName() + " cannot parse [" + visaString + "].");
         }
         int board = Integer.parseInt(matcher.group("board"));
         int primary = Integer.parseInt(matcher.group("primary"));
-        return new GpibMockConnect(board, primary);
+        return new GpibMockConnection(board, primary);
     }
 
     @Override
-    public String toVisaString(GpibMockConnect connect) {
+    public String toVisaString(GpibMockConnection connect) {
         int board = connect.getBoard();
         int primary = connect.getPrimary();
         return "GPIB" + board + "::" + primary + "::INSTR";

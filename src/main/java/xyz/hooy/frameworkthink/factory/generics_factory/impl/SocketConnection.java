@@ -1,13 +1,13 @@
 package xyz.hooy.frameworkthink.factory.generics_factory.impl;
 
-import xyz.hooy.frameworkthink.factory.generics_factory.Connect;
+import xyz.hooy.frameworkthink.factory.generics_factory.Connection;
 import xyz.hooy.frameworkthink.factory.generics_factory.ConnectException;
 
 import java.io.*;
 import java.net.Socket;
 import java.util.Objects;
 
-public class SocketConnect implements Connect {
+public class SocketConnection implements Connection {
 
     private final String host;
     private final int port;
@@ -16,7 +16,7 @@ public class SocketConnect implements Connect {
     private BufferedReader reader;
     private PrintWriter writer;
 
-    public SocketConnect(String host, int port) {
+    public SocketConnection(String host, int port) {
         this.host = host;
         this.port = port;
     }
@@ -52,7 +52,7 @@ public class SocketConnect implements Connect {
     @Override
     public void write(String message) {
         if (!isConnect()) {
-            throw new ConnectException("Connect is closed!");
+            throw new ConnectException("Connection is closed!");
         }
         writer.write(message);
     }
@@ -60,7 +60,7 @@ public class SocketConnect implements Connect {
     @Override
     public String read() {
         if (!isConnect()) {
-            throw new ConnectException("Connect is closed!");
+            throw new ConnectException("Connection is closed!");
         }
         try {
             return reader.readLine();

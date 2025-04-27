@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
-public class SocketConnect implements Connect {
+public class SocketConnection implements Connection {
 
     private final String ip;
     private final int port;
@@ -13,7 +13,7 @@ public class SocketConnect implements Connect {
     private Socket socket;
     private BufferedReader reader;
 
-    public SocketConnect(String ip, int port) {
+    public SocketConnection(String ip, int port) {
         this.ip = ip;
         this.port = port;
     }

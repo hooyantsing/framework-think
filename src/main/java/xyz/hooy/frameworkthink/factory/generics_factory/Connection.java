@@ -1,6 +1,6 @@
 package xyz.hooy.frameworkthink.factory.generics_factory;
 
-public interface Connect {
+public interface Connection {
 
     void open();
 

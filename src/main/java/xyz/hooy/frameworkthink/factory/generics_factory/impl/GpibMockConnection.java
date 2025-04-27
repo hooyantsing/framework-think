@@ -1,13 +1,13 @@
 package xyz.hooy.frameworkthink.factory.generics_factory.impl;
 
-import xyz.hooy.frameworkthink.factory.generics_factory.Connect;
+import xyz.hooy.frameworkthink.factory.generics_factory.Connection;
 
-public class GpibMockConnect implements Connect {
+public class GpibMockConnection implements Connection {
 
     private final int board;
     private final int primary;
 
-    public GpibMockConnect(int board, int primary) {
+    public GpibMockConnection(int board, int primary) {
         this.board = board;
         this.primary = primary;
     }

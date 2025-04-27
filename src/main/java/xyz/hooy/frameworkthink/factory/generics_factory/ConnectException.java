@@ -3,7 +3,7 @@ package xyz.hooy.frameworkthink.factory.generics_factory;
 public class ConnectException extends RuntimeException{
 
     public ConnectException() {
-        this("Connect failed!");
+        this("Connection failed!");
     }
 
     public ConnectException(String message) {
