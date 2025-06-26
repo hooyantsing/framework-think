@@ -1,11 +1,11 @@
-package xyz.hooy.frameworkthink.validation;
+package xyz.hooy.frameworkthink.chain.shengsheng;
 
-import xyz.hooy.frameworkthink.validation.annotation.Length;
-import xyz.hooy.frameworkthink.validation.annotation.Max;
-import xyz.hooy.frameworkthink.validation.annotation.Min;
-import xyz.hooy.frameworkthink.validation.handler.LengthValidatorHandler;
-import xyz.hooy.frameworkthink.validation.handler.MaxValidatorHandler;
-import xyz.hooy.frameworkthink.validation.handler.MinValidatorHandler;
+import xyz.hooy.frameworkthink.chain.shengsheng.annotation.Length;
+import xyz.hooy.frameworkthink.chain.shengsheng.annotation.Max;
+import xyz.hooy.frameworkthink.chain.shengsheng.annotation.Min;
+import xyz.hooy.frameworkthink.chain.shengsheng.handler.LengthValidatorHandler;
+import xyz.hooy.frameworkthink.chain.shengsheng.handler.MaxValidatorHandler;
+import xyz.hooy.frameworkthink.chain.shengsheng.handler.MinValidatorHandler;
 
 import java.lang.reflect.Field;
 

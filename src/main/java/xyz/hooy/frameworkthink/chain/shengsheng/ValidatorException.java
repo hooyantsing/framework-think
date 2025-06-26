@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.validation;
+package xyz.hooy.frameworkthink.chain.shengsheng;
 
 public class ValidatorException extends RuntimeException {
 

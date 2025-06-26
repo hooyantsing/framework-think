@@ -1,8 +1,8 @@
-package xyz.hooy.frameworkthink.validation;
+package xyz.hooy.frameworkthink.chain.shengsheng;
 
-import xyz.hooy.frameworkthink.validation.annotation.Length;
-import xyz.hooy.frameworkthink.validation.annotation.Max;
-import xyz.hooy.frameworkthink.validation.annotation.Min;
+import xyz.hooy.frameworkthink.chain.shengsheng.annotation.Length;
+import xyz.hooy.frameworkthink.chain.shengsheng.annotation.Max;
+import xyz.hooy.frameworkthink.chain.shengsheng.annotation.Min;
 
 public class TestCase {
 

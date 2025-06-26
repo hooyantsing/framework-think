@@ -1,6 +1,6 @@
-package xyz.hooy.frameworkthink.validation.handler;
+package xyz.hooy.frameworkthink.chain.shengsheng.handler;
 
-import xyz.hooy.frameworkthink.validation.ValidatorContext;
+import xyz.hooy.frameworkthink.chain.shengsheng.ValidatorContext;
 
 public class MaxValidatorHandler implements ValidatorHandler {
 

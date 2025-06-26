@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.observer;
+package xyz.hooy.frameworkthink.observer.shengsheng;
 
 /**
  * 事件消费者

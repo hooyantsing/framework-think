@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.listener;
+package xyz.hooy.frameworkthink.observer.spring;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

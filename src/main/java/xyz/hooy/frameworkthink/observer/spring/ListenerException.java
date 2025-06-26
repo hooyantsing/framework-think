@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.listener;
+package xyz.hooy.frameworkthink.observer.spring;
 
 public class ListenerException extends RuntimeException{
 

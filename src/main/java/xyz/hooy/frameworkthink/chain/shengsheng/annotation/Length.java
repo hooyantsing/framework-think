@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.validation.annotation;
+package xyz.hooy.frameworkthink.chain.shengsheng.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Max {
+public @interface Length {
 
-    int max();
+    int length();
 }

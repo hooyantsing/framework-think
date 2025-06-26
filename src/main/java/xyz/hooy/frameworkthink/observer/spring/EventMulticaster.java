@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.listener;
+package xyz.hooy.frameworkthink.observer.spring;
 
 /**
  * 存储多个监听器的容器

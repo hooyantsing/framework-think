@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.observer;
+package xyz.hooy.frameworkthink.observer.shengsheng;
 
 public class WeatherEvent extends BasicEvent {
 

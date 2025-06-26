@@ -1,4 +1,4 @@
-package xyz.hooy.frameworkthink.observer;
+package xyz.hooy.frameworkthink.observer.shengsheng;
 
 import java.util.*;
 
